@@ -1,5 +1,5 @@
--Xms512m
--Xmx2048m
+-Xms128m
+-Xmx1024m
 -XX:ReservedCodeCacheSize=512m
 -XX:+IgnoreUnrecognizedVMOptions
 -XX:+UseG1GC
@@ -15,4 +15,7 @@
 -Dkotlinx.coroutines.debug=off
 -XX:ErrorFile=$USER_HOME/java_error_in_idea_%p.log
 -XX:HeapDumpPath=$USER_HOME/java_error_in_idea.hprof
+
+--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED
+--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED
 
