@@ -84,7 +84,7 @@ echo "${EXEC_LINE}" >>"${BASH_PROFILE_PATH}"
 echo "${EXEC_LINE}" >>"${ZSH_PROFILE_PATH}"
 
 if [ $OS_NAME = "Darwin" ]; then
-  echo 'done.'
+  echo 'done. the "kill Dock" command can fix the crash issue.'
 else
   ln -sf "${MY_VMOPTIONS_SHELL_FILE}" "${KDE_ENV_DIR}/${MY_VMOPTIONS_SHELL_NAME}"
   echo "done. you'd better log off first!"
