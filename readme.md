@@ -11,9 +11,21 @@ JBR17:
     add these 2 lines to your vmoptions file: (for manual, without any whitespace chars)
     --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED
     --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED
+    
+    
+    
+# 放在任一位置即可，不一定非要放到上面
+--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED
+--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED
+
+# 记得替换为自己机器上地址，务必要写对，写错了IDE就启不来了
+-javaagent:D:/agent/ja-netfilter/ja-netfilter.jar
 
 NEW: 
     Auto configure vmoptions:
         macOS or Linux: execute "scripts/install.sh"
         Windows: double click to execute "scripts\install-current-user.vbs" (For current user)
                                          "scripts\install-all-users.vbs" (For all users)
+QQ群： 777366892
+
+[![ppD06Xj.jpg](https://s1.ax1x.com/2023/03/25/ppD06Xj.jpg)](https://imgse.com/i/ppD06Xj)
