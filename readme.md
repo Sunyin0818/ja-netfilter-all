@@ -9,6 +9,7 @@ Enjoy it~
 
 JBR17:
     add these 2 lines to your vmoptions file: (for manual, without any whitespace chars)
+    
     --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED
     --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED
     
@@ -19,7 +20,7 @@ JBR17:
 --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED
 
 # 记得替换为自己机器上地址，务必要写对，写错了IDE就启不来了
--javaagent:D:/agent/ja-netfilter/ja-netfilter.jar
+-javaagent:D:\Crack\ja-netfilter-all\ja-netfilter.jar=jetbrains
 
 NEW: 
     Auto configure vmoptions:
