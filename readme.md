@@ -55,6 +55,8 @@ NEW:
                                          
 QQ群： 777366892
 
+微信二维码： 
+
 ![微信](https://devpress.csdnimg.cn/6b09a41f054546f1b8480ffa5f15eef1.jpg)
 
 
