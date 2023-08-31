@@ -11,6 +11,11 @@
 
 使用本软件和技术将被视为您已经完全接受本免责声明的所有条款和条件。如果您不同意本免责声明的任何部分，请勿使用本软件和技术。
 
+2023.08.31
+
+最新支持： 支持2023.2.1 所有版本学习使用
+Latest Support: Support for all versions learning and usage as of February 1, 2023.
+
 # 支持2023.2 及以前的所有版本 ，有任何问题, 请联系微信： libin9iOak    QQ群： 777366892
 Operation guide: 
     1. add -javaagent:/path/to/ja-netfilter.jar=jetbrains to your vmoptions (manual or auto)
