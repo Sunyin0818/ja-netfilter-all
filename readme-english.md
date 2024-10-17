@@ -13,7 +13,7 @@ Use of the Software and Technology will be deemed to constitute your full accept
 
 2023.09.15 
 
-The project is being restructured and will be used in the near future. Please download the release package. 
+The project is being restructured and will be released in the near future. Please download the release package. 
 https://github.com/libin9iOak/ja-netfilter-all/releases
 
 Latest Code 
@@ -27,16 +27,16 @@ Latest Support: Support for all versions learning and usage as of February 1, 20
 
 # Support for all versions of 2023.2 and previous versions, have any questions, please contact WeChat: libin9iOak QQ group: 777366892
 Operation guide. 
-1. add -javaagent:/path/to/ja-netfilter.jar=jetbrains to your vmoptions (manual or auto)
-2. log out of the jb account in the 'Licenses' window
-3. use key on page https://jetbra.in/5d84466e31722979266057664941a71893322460
-4. plugin 'mymap' has been deprecated since version 2022.1
-5. don't care about the activation time, it is a fallback license and will not expire
+1. Add -javaagent:/path/to/ja-netfilter.jar=jetbrains to your VMOptions (manual or auto)
+2. Log out of the JetBrains account in the 'Licenses' window
+3. Use key on page https://jetbra.in/5d84466e31722979266057664941a71893322460
+4. Plugin 'mymap' has been deprecated since version 2022.1
+5. Don't care about the activation time, it is a fallback license and will not expire
 
 Enjoy it~
 
 JBR17.
-add these 2 lines to your vmoptions file: (for manual, without any whitespace chars)
+add these 2 lines to your VMOptions file: (for manual, without any whitespace chars)
 
 --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED
 --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED
